@@ -1,4 +1,4 @@
-window.onload(() => {
+window.onload = () => {
 
 let websites = ['https://padlet.com/kja1/3owbsv8a7hhf',
 'https://www.youtube.com/playlist?list=PLxqj8BfO0YvxwQVrtfRVaaDTxfQFXhd1S',
@@ -10,4 +10,4 @@ let rand Math.floor(Math.random() * websites.length);
 alert('gey');
 window.location = websites[rand];
 
-});
+};
